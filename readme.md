@@ -1,24 +1,32 @@
 
-Here's how you can push or launch your code onto GitHub using the different methods you mentioned.
+Here are different ways of launching the code available on the given GitHub repository:
 
-Using Visual Studio Code:
+Using Visual Studio Code Online:
 
-First, you need to install the Git version control system on your machine.
-Then, open the folder containing your project in Visual Studio Code.
-Go to the source control panel (the icon that looks like a branching graph), stage your changes, commit your code with a message.
-Finally, push your changes using the "..." menu at the top of the Source Control view and selecting "Push".
-If your repository isn't already connected to a remote one on GitHub, you can add it using the command "Git: Add Remote" in the command palette (Ctrl+Shift+P).
-Using an online Sandbox server:
+First, visit VS Code Online (https://visualstudio.microsoft.com/).
+Click on "Continue with GitHub" and log in with your GitHub account.
+Once logged in, you'll be in an environment that looks like VS Code. Click on "Clone Repository" and paste the GitHub repository URL (https://github.com/akashdeep324/3dverse-design_challenge).
+The repository will be cloned into the online editor. Now, you can work on your code online.
 
-Online development environments like CodeSandbox and Repl.it have built-in support for pushing to GitHub.
-Once you've created a new project, you can create a new GitHub repository directly from the Sandbox.
-After making changes to your code, you can commit and push the changes to GitHub directly from the Sandbox interface.
-Using an offline Node.js server with Command Prompt:
 
-First, navigate to your project folder using the command prompt.
-Initialize a new Git repository with the command git init.
-Stage your changes using git add . for all changes or git add <filename> for specific files.
-Commit your changes with git commit -m "commit message".
-If you haven't already, add your remote GitHub repository with git remote add origin <repository_url>.
-Finally, push your changes to GitHub with git push origin master (or replace 'master' with the name of your current branch if different).
-Remember that you should replace "<repository_url>" with the actual URL of your GitHub repository, and "commit message" with a description of the changes you've made.
+
+Using CodeSandbox Online Server:
+
+Visit CodeSandbox.
+Click "Create Sandbox" at the bottom right.
+Select "Import Project".
+In the "Import From GitHub" tab, paste the GitHub repository URL (https://github.com/akashdeep324/3dverse-design_challenge) and click "Import and Fork".
+CodeSandbox will then create a new Sandbox where you can work with your code and run it as well.
+(https://codesandbox.io/p/github/akashdeep324/3dverse-design_challenge)
+
+
+
+Using Offline Node.js Server Using Command Prompt:
+
+Make sure Node.js is installed on your computer. (https://nodejs.org/en).
+Open command prompt and use cd to navigate to the folder where you want to clone the GitHub repository.
+Run the command git clone https://github.com/akashdeep324/3dverse-design_challenge. This will clone the repository to your local machine.
+Navigate into the cloned folder by using cd 3dverse-design_challenge.
+If a package.json file exists, run npm install to install all the dependencies.
+Now, you can run your Node.js application by using the node command followed by the entry point file (typically node app.js or node index.js, depending on your project setup).
+Your code should now be running on a local Node.js server.

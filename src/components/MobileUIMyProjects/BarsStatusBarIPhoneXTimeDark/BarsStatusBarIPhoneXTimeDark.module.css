@@ -1,0 +1,26 @@
+.root {
+  position: absolute;
+  left: 0;
+  right: 85.6383%;
+  top: 0;
+  bottom: 52.2727%;
+  align-items: flex-start;
+  background-color: #000;
+}
+.time {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: PingFang SC, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - -7px);
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-50%);
+}

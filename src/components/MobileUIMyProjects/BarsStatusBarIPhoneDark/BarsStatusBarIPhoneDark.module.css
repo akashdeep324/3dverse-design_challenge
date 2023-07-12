@@ -1,0 +1,54 @@
+.timeStyle.timeStyle {
+  left: 21px;
+  right: initial;
+  top: 7px;
+  bottom: initial;
+  width: 54px;
+  height: 21px;
+  background-color: initial;
+}
+.root {
+  position: absolute;
+  left: 0;
+  right: 3.5897%;
+  top: 0;
+  bottom: 96.6438%;
+  align-items: flex-start;
+  background-color: #000;
+}
+.battery {
+  position: absolute;
+  left: 336.3333px;
+  top: 17.3333px;
+  width: 24.328px;
+  height: 11.3333px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.wifi {
+  position: absolute;
+  left: 316px;
+  top: 17.3307px;
+  width: 15.3333px;
+  height: 11px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.cellularConnection {
+  position: absolute;
+  left: 294px;
+  top: 17.6667px;
+  width: 17px;
+  height: 10.6667px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
